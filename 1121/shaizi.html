@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+	.fang{
+		width: 200px;
+		height: 200px;
+		transform-style: preserve-3d;
+		perspective: 100;
+		position: relative;
+		left: 0;
+		animation: shai 1.5s infinite;
+		margin: 300px auto;
+		transform: rotateY(-45deg);
+	}
+	.mian1,.mian2,.mian3,.mian4,.mian5,.mian6{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		left: 0;
+		background: #f00;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		opacity: 0.5;
+	}
+	div[class] p{
+		font-size: 100px;
+		
+		
+	}
+	div[class] span{
+		display: block;
+		width: 20px;
+		height: 20px;
+		border: 3px solid black;
+		border-radius: 50%;
+		background: #FF0000;
+		padding: 10px;
+	}
+		div[class] 
+	.mian1{
+		
+		transform: translate3d(0,0,100px);
+		background: #f00;
+	}
+	.mian2{
+		transform: translate3d(0,0,-100px);
+		background: #00f;
+	}
+	.mian3{
+		transform: translate3d(100px,0,0) rotateY(90deg);
+		background: #0f0;
+	}
+	.mian4{
+		transform: translate3d(-100px,0,0) rotateY(90deg);
+		background: #ff0;
+	}
+	.mian5{
+		transform: translate3d(0,100px,0) rotateX(90deg);
+		background: lightcoral;
+	}
+	.mian6{
+		transform: translate3d(0,-100PX,0) rotateX(90deg);
+		background: chartreuse;
+	}
+	@keyframes shai{
+		from{ transform: rotateX(0) rotateY(-45deg) rotate(0)}
+		to{ transform: rotateX(360deg) rotateY(360deg) rotate(360deg)}
+	}
+
+</style>
+
+	<body>
+		<div class="fang">
+			<div class="mian1"><span></span></div>
+			<div class="mian2"><span></span><span></span></div>
+			<div class="mian3"><span></span><span></span><span></span></div>
+			<div class="mian4"><p><span></span><span></span></p><p><span></span><span></span></p></div>
+			<div class="mian5"><p><span></span><span></span></p><p><span></span></p><p><span></span><span></span></p></div>
+			<div class="mian6"><p><span></span><span></span><span></span></p><p><span></span><span></span><span></span></p></div>
+			
+			
+			
+			
+			
+			
+			
+		</div><!--fang-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>	
+</html>
