@@ -1,0 +1,8 @@
+[
+    {
+        "path":"/",
+        "exact":true,
+        "sidebar":"()=><div>AA</div>",
+        "main":"()=><About />"
+    }
+]
